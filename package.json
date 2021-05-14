@@ -1,6 +1,6 @@
 {
   "name": "@emartech/eslint-config-ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Emarsys Eslint config",
   "main": "index.js",
   "files": [
@@ -23,7 +23,7 @@
     "access": "public"
   },
   "license": "MIT",
-  "repository": "emarsys/eslint-config-ts",
+  "repository": "emartech/eslint-config-ts",
   "bugs": {
     "url": "https://github.com/emartech/eslint-config-ts/issues"
   },
