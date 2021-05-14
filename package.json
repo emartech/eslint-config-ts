@@ -1,0 +1,47 @@
+{
+  "name": "@emartech/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "Emarsys Eslint config",
+  "main": "index.js",
+  "files": [
+    "*.js"
+  ],
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "scripts": {
+    "lint": "eslint '*.js'",
+    "check-generated-config": "eslint -c index.js --print-config typescript-recommended.js > generated.typescript-recommended.json"
+  },
+  "author": "rigo_tamas_emarsys <tamas.rigo@emarsys.com>",
+  "contributors": [
+    "rigo_tamas_emarsys <tamas.rigo@emarsys.com>",
+    "dmaraki <dorina.maraki@emarsys.com>"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "repository": "emarsys/eslint-config-ts",
+  "bugs": {
+    "url": "https://github.com/emartech/eslint-config-ts/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.0",
+    "@typescript-eslint/parser": "^4.15.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-prettier": "^3.3.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.0.0 || ^7.0.0",
+    "prettier": "^2.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.14.3",
+    "eslint": "^7.19.0",
+    "eslint-plugin-node": "^11.1.0",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.4"
+  }
+}
